@@ -8,7 +8,10 @@ int iz(int** mass, int* n) // void_stack: mass=0x2c34dffcc4
 {
     return *mass[*n-1];
 }
-
+void pop(int** mass, int n) // void_stack: mass=0x2c34dffcc4
+{
+ (*mass)[n-1]--;
+}
 int main(){ // main_stack: mas=0x2c34dffcc4;
   int mas[]{1,2,3};
   int count = 3;
@@ -19,10 +22,13 @@ int main(){ // main_stack: mas=0x2c34dffcc4;
   massPtr = mas;
 //   cout<<"massPtr: "<<massPtr<<endl;
 //   cout<<"&massPtr: "<<&massPtr<<endl; // **
-
-  popItem = iz(&massPtr, &count); // main_stack -> void_stack | main_stack <- void_stack
-  cout<<*massPtr<<endl; // изменилось
-  cout<<&massPtr<<endl; // сохранилось
+// popItem = iz(&massPtr, &count); // main_stack -> void_stack | main_stack <- void_stack
+// cout<<*massPtr<<endl; // изменилось
+// cout<<&massPtr<<endl; // сохранилось
+pop(&massPtr,count);
+for (int i=0;i<count;i++)
+cout<<mas[i]<<endl;
 }
 // еще один указатель
 // Общая куча: 0x...=5
+
