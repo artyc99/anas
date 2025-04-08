@@ -5,6 +5,8 @@
         "new": "cpp",
         "numbers": "cpp",
         "algorithm": "cpp",
-        "format": "cpp"
+        "format": "cpp",
+        "text_encoding": "cpp",
+        "typeinfo": "cpp"
     }
 }

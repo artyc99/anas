@@ -1,0 +1,9 @@
+https://metanit.com/cpp/tutorial/5.8.php - структуры
+
+Классы:
+https://habr.com/ru/sandbox/189562/
+https://metanit.com/cpp/tutorial/5.2.php
+https://metanit.com/cpp/tutorial/5.6.php
+https://metanit.com/cpp/tutorial/5.13.php
+
+Все применимое для структур применимо так же для классов
