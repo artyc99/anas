@@ -7,6 +7,12 @@
         "algorithm": "cpp",
         "format": "cpp",
         "text_encoding": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "random": "cpp",
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp"
     }
 }
