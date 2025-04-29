@@ -50,14 +50,14 @@ int main() {
 
     // makeSomeNoze(an1);
 
-    // vector<IAnimal*> zoo = {
-    //     new Dog(),
-    //     new Lion(),
-    //     new Lion(),
-    //     new Lion(),
-    //     new Lion(),
-    //     new Lion(),
-    // };
+    vector<IAnimal*> zoo = {
+        new Dog(),
+        new Lion(),
+        new Lion(),
+        new Lion(),
+        new Lion(),
+        new Lion(),
+    };
 
     vector<int> integers = {1,2,3,4,5};
     integers.push_back(6);
